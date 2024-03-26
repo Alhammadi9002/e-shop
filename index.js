@@ -44,7 +44,7 @@ window.onload = function () {
 
           product_price.textContent = item.price + "$";
           add_btn.textContent = "Add to cart";
-          product.classList = "product";
+          product.classList = "card product";
           product_info.classList = "product_info";
           product_name.classList = "card-title"
           img.classList = "card-img-top"
