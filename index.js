@@ -41,12 +41,14 @@ window.onload = function () {
           product_info.appendChild(add_btn);
           img.src = item.image;
           product_name.textContent = item.title;
+
           product_price.textContent = item.price + "$";
           add_btn.textContent = "Add to cart";
           product.classList = "product";
           product_info.classList = "product_info";
-   
-   
+          product_name.classList = "card-title"
+          img.classList = "card-img-top"
+          add_btn.classList = "btn btn-primary"
           add_btn.addEventListener("click", function () {
             addToCart(item);
           });
